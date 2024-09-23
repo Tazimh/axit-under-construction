@@ -1,0 +1,884 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Raleway; */
+/* font-family: "Open Sans"; */
+
+
+/* global css */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* font-family: "Raleway; */
+    /* font-family: "Open Sans"; */
+}
+.container {
+    width: 1140px !important;
+}
+/* navbar css */
+.mainmenu{
+    width: 100%;
+    Position: sticky!important ;
+    Top: 0;
+    Z-index: 9999;
+}
+.navbar{
+    background-color:#000000;
+    width: 100%;
+    height: 10vh;
+}
+.navbar img{
+    width: 40%;
+}
+.navbar .nav-item .nav-link{
+    font-family: "Open Sans";
+    font-size: 15px;
+    color: white !important;
+    font-weight: 500;
+    margin-left: 30px;
+}
+/* banner-section css */
+
+.banner-section{
+    width: 100%;
+    height: 95vh;
+    background-attachment: fixed !important;
+    background: url(banner.png) center center no-repeat;
+    background-size: cover;
+}
+.banner-section .left-b img{
+    padding: 120px 0px 30px ;
+}
+.banner-section .left-b h1{
+    width: 105%;
+    font-family: "Raleway";
+    font-size: 40px;
+    color:white ;
+    font-weight: 400 !important;
+    padding-bottom:20px ;
+}
+.banner-section .underline {
+    width: 60px;
+    margin: 0px 0px;
+    background: #ffffff;
+    position: relative;
+    height: 2px;
+    transition: 0.7s;
+}
+
+.banner-section:hover .underline {
+    width: 150px;
+    margin: 0px 0px;
+    background: #ffffff;
+    position: relative;
+    height: 2px;
+    transition: 0.7s;
+}
+.banner-section .left-b p{
+    width: 85%;
+    font-family: "Raleway";
+    color:white ;
+    font-weight: 100 !important;
+    padding: 30px 0px 30px;
+}
+.banner-section .left-b .b-btn a{
+    font-family: "Open Sans";
+    color:white ;
+    font-weight: 500 !important;
+    text-decoration: none;
+    border: 2px solid #ffff;
+    padding: 8px 27px;
+    transition: 0.5s;
+}
+.banner-section .left-b .b-btn a:hover{
+    font-family: "Open Sans";
+    color:white ;
+    font-weight: 500 !important;
+    background-color: #ff8b38;
+    text-decoration: none;
+    border: 2px solid #ff8b38;
+    padding: 8px 27px;
+    transition: 0.5s;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 300;
+    outline: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #ccc;
+    /* border-radius: 4px; */
+    box-sizing: border-box;
+    position: relative;
+    top: -25px;
+  }
+  
+  input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 300;
+    outline: none;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: 1px solid #ccc;
+    border: 1px solid #ccc;
+    /* border-radius: 4px; */
+    box-sizing: border-box;
+    margin-bottom: 30px;
+  }
+  
+  input[type=submit] {
+    position: relative;
+    width: 383px;
+    background-color: #ff9b51;
+    color: white;
+    padding: 14px 50px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 0px 0px 4px 4px;
+    cursor: pointer;
+    left: -40px;
+    top: 5px;
+    transition: 0.5s;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #f8a86b;
+    transition: 0.5s;
+  }
+  
+  .right-b {
+    width: 70%;
+    height: 50vh;
+    border-radius: 5px;
+    background-color: white;
+    padding: 40px;
+    margin-left: 155px;
+    margin-top: 120px;
+}
+  .titlex{
+    width: 382px;
+    height: 10vh;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #f5f5f5;
+    position: relative;
+    left: -40px;
+    top: -40px;
+  }
+
+.titlex span{
+    color: #ff9b51;
+}
+.titlex h3{
+    width: 101%;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: 22px;
+    /* letter-spacing: 1px; */
+    word-spacing: 1px;
+}
+/* s media css */
+.s-media{
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid #d6d6d6;
+}
+.inner-s h5{
+    font-size: 18px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    padding-top: 8px;
+    margin-top: 10px;
+}
+.inner-s p {
+    font-size: 13px;
+    font-family: "Open Sans";
+    font-weight: 500;
+    color: rgb(134, 135, 139);
+    width: 80%;
+    word-spacing: 2px;
+    padding: 0px 2px;
+}
+.innerp{
+    display: flex;
+    margin-top: 15px;
+    margin-right: 25%;
+}
+.innerp img{
+    width: 20%;
+}
+.innerp img:hover{
+    width: 23%;
+    padding-right: 2%;
+}
+/* c section css */
+.c-section{
+    width: 100%;
+    height: 80vh ;
+    background-color: #f5f5f5;
+}
+.c-section .tab-content h4{
+    padding-top: 21%;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    padding-bottom: 35px;
+    margin-left: 75px;
+}
+.c-section .tab-content p {
+    width: 76%;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(134, 135, 139);
+    margin-left: 75px;
+}
+.c-section .tab-content .cus-para{
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(134, 135, 139);
+    padding-bottom: 40px;
+}
+.c-section .tab-content .b-btn a{
+    font-family: "Open Sans";
+    color:white ;
+    background-color: #ff8b38;
+    font-weight: 500 !important;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 2px solid #ff8b38;
+    padding: 8px 22px;
+    transition: 0.5s;
+    margin-left: 75px;
+}
+.c-section .tab-content .b-btn a:hover{
+    font-family: "Open Sans";
+    color:#f8a86b ;
+    background-color: transparent;
+    font-weight: 500 !important;
+    text-decoration: none;
+    border: 2px solid #f8a86b;
+    padding: 8px 22px;
+    transition: 0.5s;
+}
+button.nav-link{
+    width: 95px;
+    padding:40px 0px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+}
+button.nav-link:hover{
+    color: white;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #ff8b38 !important;
+}
+.nav-pills .nav-link, .nav-pills .show>.nav-link {
+    background-color: #333333 !important;
+}
+.c-section .tab1{
+    border-radius: 4px 4px 0px 0px !important;
+    border-bottom:1px solid #f5f5f5 ;
+    margin-top: 140%;
+}
+.c-section .tab2{
+    border-radius: 0px !important;
+    border-bottom:1px solid #f5f5f5 ;
+}
+.c-section .tab3{
+    border-radius: 0px 0px 4px 4px !important;
+}
+.c-section .img-box img{
+    width: 90%;
+    padding-top: 38%;
+    margin-left: 10% !important;
+}
+/* list-section css */
+.list-section{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+}
+.list-section .li-inner-content h4{
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 18%;
+    color: #212121;
+}
+.list-section .underline {
+    width: 60px;
+    background: #ff8b38;
+    margin: 25px 0px 25px;
+    position: relative;
+    height: 2px;
+    transition: 0.7s;
+}
+
+.list-section:hover .underline {
+    width: 150px;
+    margin: 25px 0px 25px;
+    background: #ff8b38;
+    position: relative;
+    height: 2px;
+    transition: 0.7s;
+}
+.list-section .li-inner-content p {
+    width: 90%;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(134, 135, 139);
+}
+.list-section .inner-tap .it-1{
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    color: #3d3d3d;
+}
+.list-section .inner-tap .it-2 {
+    width: 78%;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(134, 135, 139);
+}
+.list-section .inner-tap .it-2 {
+    width: 78%;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(134, 135, 139);
+}
+.list-section .inner-tip img{
+    position: relative;
+    left: -52px;
+    top: -5px;
+}
+.cuss img{
+    position: relative !important;
+    left: -42px;
+    top: -65px;
+}
+.inner-tap{
+    position: relative;
+    top: -70px;
+    left: 60px;
+}
+.maintain{
+    position: relative;
+    top: -130px;
+}
+.list-section .img-boxs img {
+    margin: 75px -50px 0px;
+}
+/* picture section css */
+.picture-section{
+    width: 100%;
+    height: 75vh;
+    background-color: #f5f5f5;
+}
+.picture-section .inner-co h4{
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20%;
+    color: #212121;
+}
+.picture-section .underline {
+    width: 60px;
+    background: #ff8b38;
+    margin: 23px 0px 25px;
+    position: relative;
+    height: 2px;
+    transition: 0.7s;
+}
+
+.picture-section:hover .underline {
+    width: 150px;
+    margin: 23px 0px 25px;
+    background: #ff8b38;
+    position: relative;
+    height: 2px;
+    transition: 0.7s;
+}
+.picture-section .inner-co p {
+    width: 90%;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(134, 135, 139);
+}
+.picture-section .img-bo img{
+    margin-top: 12%;
+}
+/* pricing section css */
+.catalog-section{
+    width: 100%;
+    height: 75vh;
+    background-color: white;
+}
+.catalog-section .inner-col h2{
+    font-family: "Raleway";
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 8%;
+    color: #212121;
+}
+.catalog-section .underline {
+    width: 60px;
+    background: #ff8b38;
+    margin: 18px auto 23px;
+    position: relative;
+    height: 2px;
+    transition: 0.7s;
+}
+
+.catalog-section:hover .underline {
+    width: 150px;
+    margin: 18px auto 23px;
+    background: #ff8b38;
+    position: relative;
+    height: 2px;
+    transition: 0.7s;
+}
+.catalog-section .inner-col p {
+    width: 90%;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(134, 135, 139);
+    margin: 0 auto;
+    margin-bottom: 6%;
+}
+.catalog-section .inner-control img{
+ width: 30%;
+}
+.catalog-section .inner-control h4{
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 0px 7px;
+}
+.catalog-section .inner-control p{
+    width: 95%;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(134, 135, 139);
+}
+/* pricing section css */
+.pricing-section{
+    width: 100%;
+    height: 125vh;
+    background-color: #f5f5f5;
+}
+.pricing-section .inner-com h2{
+    font-family: "Raleway";
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 8%;
+    color: #212121;
+}
+.pricing-section .underline {
+    width: 60px;
+    background: #ff8b38;
+    margin: 18px auto 23px;
+    position: relative;
+    height: 2px;
+    transition: 0.7s;
+}
+
+.pricing-section:hover .underline {
+    width: 150px;
+    margin: 18px auto 23px;
+    background: #ff8b38;
+    position: relative;
+    height: 2px;
+    transition: 0.7s;
+}
+.pricing-section .inner-com p {
+    width: 90%;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(134, 135, 139);
+    margin: 0 auto;
+    margin-bottom: 9%;
+}
+.pricing-section .p-cart .cart-head h6{
+    width: 90%;
+    height: 50px;
+    background-color: #333333;
+    font-family: "Open Sans";
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 14px;
+    color: white;
+    border-bottom: 1px solid #f5f5f5;
+}
+.pricing-section .p-cart .body-cart h4{
+    width: 90%;
+    height: 50px;
+    background-color: #333333;
+    font-family: "Raleway";
+    font-size: 85px;
+    font-weight: 600;
+    color: white;
+    margin-top: -8px;
+    border-bottom: 1px solid #f5f5f5;
+}
+.pricing-section .p-cart .body-cart sub{
+    font-family: "Raleway";
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.pricing-section .p-cart .body-cart p{
+    width: 90%;
+    height: 110px;
+    background-color: #333333;
+    font-family: "Raleway";
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 600;
+    color: #999999;
+    padding-top: 50px;
+    margin-top: -9px;
+    border-bottom: 1px solid #f5f5f5;
+}
+.p-cart .c-border{
+    height: 40px !important;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    padding-top: 12px;
+}
+.pricing-section .p-cart .boderline{
+    width: 90%;
+    height: 4px;
+    background-color: #ff8b38;
+    margin-top: -25px;
+    position: relative;
+    z-index: 999;
+    top: -15px;
+}
+.pricing-section .p-cart .para1 p{
+    width: 90%;
+    height: 40px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    color: #a4a5a8;
+    border-bottom: 1px solid #f5f5f5;
+    padding-top: 8px;
+    margin-top: -15px;
+} 
+.pricing-section .p-cart .para2 p{
+    width: 90%;
+    height: 40px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    color: #a4a5a8;
+    border-bottom: 1px solid #f5f5f5;
+    padding-top: 8px;
+    margin-top: -15px;
+}
+.pricing-section .p-cart .para3 p{
+    width: 90%;
+    height: 40px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    color: #a4a5a8;
+    border-bottom: 1px solid #f5f5f5;
+    padding-top: 8px;
+    margin-top: -15px;
+}
+.pricing-section .p-cart .para4 p{
+    width: 90%;
+    height: 40px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    color: #a4a5a8;
+    padding-top: 8px;
+    margin-top: -15px;
+}
+.pricing-section .p-cart .para5 p{
+    width: 90%;
+    height: 40px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    color: #a4a5a8;
+    padding-top: 8px;
+    margin-top: -15px;
+}
+.cus-con{
+    margin-top: -35px;
+}
+/* testimonial section css */
+.testimonial-section{
+    width: 100%;
+    height: 95vh;
+    background-color: white;
+}
+.testimonial-section .inner-part h2{
+    font-family: "Raleway";
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 8%;
+    color: #212121;
+}
+.testimonial-section .underline {
+    width: 60px;
+    background: #ff8b38;
+    margin: 18px auto 23px;
+    position: relative;
+    height: 2px;
+    transition: 0.7s;
+}
+
+.testimonial-section:hover .underline {
+    width: 150px;
+    margin: 18px auto 23px;
+    background: #ff8b38;
+    position: relative;
+    height: 2px;
+    transition: 0.7s;
+}
+.testimonial-section .inner-part p {
+    width: 90%;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(134, 135, 139);
+    margin: 0 auto;
+    margin-bottom: 9%;
+}
+.testimonial-section .inner-para {
+    width: 79%;
+    padding: 19px;
+    margin: 20px auto;
+    background-color: #f5f5f5;
+    position: relative;
+}
+.testimonial-section .inner-para p {
+    font-size: 14px;
+    font-weight: 400 !important;
+    color: #8e8e90;
+    font-style: italic;
+    word-spacing: 5px;
+    line-height: 17px;
+}
+.testimonial-section .inner-para::before {
+    content: url();
+    width: 25px;
+    height: 22px;
+    background-color: #f5f5f5;
+    position: absolute;
+    top: 125px;
+    left: 16%;
+    transform: translateX(-50%) rotate(-45deg);
+}
+.testimonial-section .testi-img img{
+    padding-left: 45px;
+    margin-top: 3px;
+}
+.testimonial-section .testi-img h4 {
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 0px 7px;
+    margin-left: 37%;
+    margin-top: -20%;
+}
+.testimonial-section .testi-img p {
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 700;
+    padding: 15px 0px 7px;
+    color: #8e8e90;
+    margin-left: 36%;
+    margin-top: -7%;
+}
+/* design section css */
+.design-section{
+    width: 100%;
+    height: 46vh;
+    background: url(u25_state0.png) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed !important;
+    
+}
+.design-section .inner-part h2{
+    font-family: "Raleway";
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 8%;
+    color: white;
+}
+.design-section .underline {
+    width: 60px;
+    background: white;
+    margin: 18px auto 23px;
+    position: relative;
+    height: 2px;
+    transition: 0.7s;
+}
+
+.design-section:hover .underline {
+    width: 150px;
+    margin: 18px auto 23px;
+    background: white;
+    position: relative;
+    height: 2px;
+    transition: 0.7s;
+}
+.design-section .inner-part p {
+    width: 90%;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 200;
+    color: #cccccc;
+    margin: 0 auto;
+    margin-bottom: 4%;
+}
+.design-section .inner-part .b-btn a{
+    font-family: "Open Sans";
+    color:white ;
+    font-weight: 500 !important;
+    text-decoration: none;
+    border: 2px solid #ffff;
+    padding: 8px 27px;
+    transition: 0.5s;
+}
+.design-section .inner-part .b-btn a:hover{
+    font-family: "Open Sans";
+    color:white ;
+    font-weight: 500 !important;
+    background-color: #ff8b38;
+    text-decoration: none;
+    border: 2px solid #ff8b38;
+    padding: 8px 27px;
+    transition: 0.5s;
+}
+/* contact section css */
+.contact-section{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+}
+.contact-section .inner-part h2{
+    font-family: "Raleway";
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 8%;
+    color: #212121;
+}
+.contact-section .underline {
+    width: 60px;
+    background: #ff8b38;
+    margin: 18px auto 23px;
+    position: relative;
+    height: 2px;
+    transition: 0.7s;
+}
+
+.contact-section:hover .underline {
+    width: 150px;
+    margin: 18px auto 23px;
+    background: #ff8b38;
+    position: relative;
+    height: 2px;
+    transition: 0.7s;
+}
+.contact-section .inner-part p {
+    width: 90%;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(134, 135, 139);
+    margin: 0 auto;
+    margin-bottom: 9%;
+}
+.contact-section .f-control{
+    padding-bottom: 25%;
+    width: 97%;
+}
+.contact-section .f1-con{
+    width: 97%;
+}
+.contact-section .b-btn {
+    margin-top: 3%;
+}
+.contact-section .b-btn a{
+    font-family: "Open Sans";
+    font-size: 14px;
+    color:white ;
+    background-color: #ff8b38;
+    font-weight: 400 !important;
+    text-decoration: none;
+    border: 1px solid #ff8b38;
+    padding: 9px 20px;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin-left: -83px;
+    margin-top: 3%;
+}
+.contact-section .b-btn a:hover{
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: #f8a86b ;
+    background-color: transparent;
+    padding: 9px 20px;
+    border: 1px solid #f8a86b;
+    font-weight: 400 !important;
+    text-decoration: none;
+    transition: 0.5s;
+}
+/* footer section css */
+.footer-section{
+    width: 100%;
+    height: 15vh;
+    background-color: #000000;
+}
+.footer-section .inner-icon .icon img{
+    width: 4%;
+    padding-top: 15px;
+}
+.footer-section .icon img:hover{
+    width: 5%;
+}
+.footer-section .inner-icon p{
+    font-family: "Open Sans";
+    font-size: 13px;
+    color: #808080;
+    padding-top: 10px;
+}
